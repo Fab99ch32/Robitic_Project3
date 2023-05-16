@@ -1,0 +1,25 @@
+[0.673s] Invoking command in '/home/fab/ros2_ws/src/Objekt_erkennen': PYTHONPATH=/home/fab/ros2_ws/src/build/Objekt_erkennen/prefix_override:/home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Objekt_erkennen build --build-base /home/fab/ros2_ws/src/build/Objekt_erkennen/build install --record /home/fab/ros2_ws/src/build/Objekt_erkennen/install.log --single-version-externally-managed
+[0.839s] running egg_info
+[0.839s] writing ../build/Objekt_erkennen/Objekt_erkennen.egg-info/PKG-INFO
+[0.840s] writing dependency_links to ../build/Objekt_erkennen/Objekt_erkennen.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../build/Objekt_erkennen/Objekt_erkennen.egg-info/entry_points.txt
+[0.840s] writing requirements to ../build/Objekt_erkennen/Objekt_erkennen.egg-info/requires.txt
+[0.840s] writing top-level names to ../build/Objekt_erkennen/Objekt_erkennen.egg-info/top_level.txt
+[0.842s] reading manifest file '../build/Objekt_erkennen/Objekt_erkennen.egg-info/SOURCES.txt'
+[0.843s] writing manifest file '../build/Objekt_erkennen/Objekt_erkennen.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.843s] running build_py
+[0.843s] copying Objekt_erkennen/publischer.py -> /home/fab/ros2_ws/src/build/Objekt_erkennen/build/lib/Objekt_erkennen
+[0.845s] running install
+[0.845s] running install_lib
+[0.846s] copying /home/fab/ros2_ws/src/build/Objekt_erkennen/build/lib/Objekt_erkennen/publischer.py -> /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen
+[0.846s] byte-compiling /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen/publischer.py to publischer.cpython-310.pyc
+[0.847s] running install_data
+[0.847s] running install_egg_info
+[0.849s] removing '/home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen-0.0.0-py3.10.egg-info' (and everything under it)
+[0.850s] Copying ../build/Objekt_erkennen/Objekt_erkennen.egg-info to /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen-0.0.0-py3.10.egg-info
+[0.852s] running install_scripts
+[0.866s] Installing publischer script to /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/Objekt_erkennen
+[0.867s] Installing subscriber script to /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/Objekt_erkennen
+[0.868s] writing list of installed files to '/home/fab/ros2_ws/src/build/Objekt_erkennen/install.log'
+[0.896s] Invoked command in '/home/fab/ros2_ws/src/Objekt_erkennen' returned '0': PYTHONPATH=/home/fab/ros2_ws/src/build/Objekt_erkennen/prefix_override:/home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Objekt_erkennen build --build-base /home/fab/ros2_ws/src/build/Objekt_erkennen/build install --record /home/fab/ros2_ws/src/build/Objekt_erkennen/install.log --single-version-externally-managed

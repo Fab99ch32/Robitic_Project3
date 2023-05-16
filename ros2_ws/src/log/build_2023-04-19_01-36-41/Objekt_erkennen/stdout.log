@@ -1,0 +1,26 @@
+running egg_info
+writing ../build/Objekt_erkennen/Objekt_erkennen.egg-info/PKG-INFO
+writing dependency_links to ../build/Objekt_erkennen/Objekt_erkennen.egg-info/dependency_links.txt
+writing entry points to ../build/Objekt_erkennen/Objekt_erkennen.egg-info/entry_points.txt
+writing requirements to ../build/Objekt_erkennen/Objekt_erkennen.egg-info/requires.txt
+writing top-level names to ../build/Objekt_erkennen/Objekt_erkennen.egg-info/top_level.txt
+reading manifest file '../build/Objekt_erkennen/Objekt_erkennen.egg-info/SOURCES.txt'
+writing manifest file '../build/Objekt_erkennen/Objekt_erkennen.egg-info/SOURCES.txt'
+running build
+running build_py
+copying Objekt_erkennen/publischer1.py -> /home/fab/ros2_ws/src/build/Objekt_erkennen/build/lib/Objekt_erkennen
+copying Objekt_erkennen/subscriber1.py -> /home/fab/ros2_ws/src/build/Objekt_erkennen/build/lib/Objekt_erkennen
+running install
+running install_lib
+copying /home/fab/ros2_ws/src/build/Objekt_erkennen/build/lib/Objekt_erkennen/publischer1.py -> /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen
+copying /home/fab/ros2_ws/src/build/Objekt_erkennen/build/lib/Objekt_erkennen/subscriber1.py -> /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen
+byte-compiling /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen/publischer1.py to publischer1.cpython-310.pyc
+byte-compiling /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen/subscriber1.py to subscriber1.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/Objekt_erkennen/Objekt_erkennen.egg-info to /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publischer script to /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/Objekt_erkennen
+Installing subscriber script to /home/fab/ros2_ws/src/install/Objekt_erkennen/lib/Objekt_erkennen
+writing list of installed files to '/home/fab/ros2_ws/src/build/Objekt_erkennen/install.log'

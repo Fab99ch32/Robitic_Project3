@@ -1,0 +1,3 @@
+[submodule "workspace/submodule_folder_name"]
+	path = workspace/submodule_folder_name
+	url = https://github.com/Fab99ch32/Robitic_Project3.git

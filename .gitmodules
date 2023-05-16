@@ -1,3 +1,6 @@
 [submodule "workspace/submodule_folder_name"]
 	path = workspace/submodule_folder_name
 	url = https://github.com/matl-hsk/ro45_portalrobot_interfaces.git
+[submodule "ros2_workspace/src/ro45_portalrobot_interfaces"]
+	path = ros2_workspace/src/ro45_portalrobot_interfaces
+	url = https://github.com/matl-hsk/ro45_portalrobot_interfaces.git

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ro45_portalrobot_interfaces/msg/detail/robot_cmd__type_support.c.o"
+  "CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ro45_portalrobot_interfaces/msg/detail/robot_cmd__type_support.c.o.d"
+  "CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ro45_portalrobot_interfaces/msg/detail/robot_pos__type_support.c.o"
+  "CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ro45_portalrobot_interfaces/msg/detail/robot_pos__type_support.c.o.d"
+  "libro45_portalrobot_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libro45_portalrobot_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/ro45_portalrobot_interfaces/msg/detail/robot_cmd__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ro45_portalrobot_interfaces/msg/detail/robot_cmd__type_support.c"
+  "rosidl_typesupport_introspection_c/ro45_portalrobot_interfaces/msg/detail/robot_pos__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ro45_portalrobot_interfaces/msg/detail/robot_pos__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

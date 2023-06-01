@@ -1,0 +1,21 @@
+{
+  "package_name": "ro45_portalrobot_interfaces",
+  "output_dir": "/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces/rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces/rosidl_adapter/ro45_portalrobot_interfaces:msg/RobotCmd.idl",
+    "/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces/rosidl_adapter/ro45_portalrobot_interfaces:msg/RobotPos.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces/rosidl_adapter/ro45_portalrobot_interfaces/msg/RobotCmd.idl",
+    "/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces/rosidl_adapter/ro45_portalrobot_interfaces/msg/RobotPos.idl"
+  ]
+}

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces/msg/detail/robot_cmd__type_support_c.cpp.o"
+  "CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces/msg/detail/robot_cmd__type_support_c.cpp.o.d"
+  "CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces/msg/detail/robot_pos__type_support_c.cpp.o"
+  "CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces/msg/detail/robot_pos__type_support_c.cpp.o.d"
+  "libro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces/msg/detail/robot_cmd__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces/msg/detail/robot_cmd__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces/msg/detail/robot_pos__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/ro45_portalrobot_interfaces/msg/detail/robot_pos__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

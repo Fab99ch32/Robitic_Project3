@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from ro45_portalrobot_interfaces:msg/RobotPos.idl
+// generated code does not contain a copyright notice
+
+#ifndef RO45_PORTALROBOT_INTERFACES__MSG__ROBOT_POS_H_
+#define RO45_PORTALROBOT_INTERFACES__MSG__ROBOT_POS_H_
+
+#include "ro45_portalrobot_interfaces/msg/detail/robot_pos__struct.h"
+#include "ro45_portalrobot_interfaces/msg/detail/robot_pos__functions.h"
+#include "ro45_portalrobot_interfaces/msg/detail/robot_pos__type_support.h"
+
+#endif  // RO45_PORTALROBOT_INTERFACES__MSG__ROBOT_POS_H_

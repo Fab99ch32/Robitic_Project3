@@ -1,0 +1,7 @@
+{
+  "package_name": "ro45_portalrobot_interfaces",
+  "non_idl_tuples": [
+    "/home/juntj/Robitic_Project3/ros2_workspace/src/ro45_portalrobot_interfaces:msg/RobotCmd.msg",
+    "/home/juntj/Robitic_Project3/ros2_workspace/src/ro45_portalrobot_interfaces:msg/RobotPos.msg"
+  ]
+}

@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ro45_portalrobot_interfaces/msg/RobotPos.msg
+// generated code does not contain a copyright notice
+
+
+module ro45_portalrobot_interfaces {
+  module msg {
+    struct RobotPos {
+      float pos_x;
+
+      float pos_y;
+
+      float pos_z;
+    };
+  };
+};

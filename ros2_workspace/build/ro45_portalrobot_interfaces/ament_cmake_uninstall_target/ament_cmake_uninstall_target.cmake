@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

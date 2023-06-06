@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing Tracker.egg-info/PKG-INFO
+writing dependency_links to Tracker.egg-info/dependency_links.txt
+writing entry points to Tracker.egg-info/entry_points.txt
+writing requirements to Tracker.egg-info/requires.txt
+writing top-level names to Tracker.egg-info/top_level.txt
+reading manifest file 'Tracker.egg-info/SOURCES.txt'
+writing manifest file 'Tracker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages/Tracker.egg-link (link to .)
+
+Installed /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker
+running install_data

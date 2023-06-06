@@ -1,0 +1,31 @@
+[2.166s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/src/position_Controller': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/position_Controller build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/install.log --single-version-externally-managed
+[2.456s] running egg_info
+[2.457s] creating ../../build/position_Controller/position_Controller.egg-info
+[2.457s] writing ../../build/position_Controller/position_Controller.egg-info/PKG-INFO
+[2.458s] writing dependency_links to ../../build/position_Controller/position_Controller.egg-info/dependency_links.txt
+[2.458s] writing entry points to ../../build/position_Controller/position_Controller.egg-info/entry_points.txt
+[2.458s] writing requirements to ../../build/position_Controller/position_Controller.egg-info/requires.txt
+[2.458s] writing top-level names to ../../build/position_Controller/position_Controller.egg-info/top_level.txt
+[2.458s] writing manifest file '../../build/position_Controller/position_Controller.egg-info/SOURCES.txt'
+[2.461s] reading manifest file '../../build/position_Controller/position_Controller.egg-info/SOURCES.txt'
+[2.461s] writing manifest file '../../build/position_Controller/position_Controller.egg-info/SOURCES.txt'
+[2.462s] running build
+[2.462s] running build_py
+[2.462s] creating /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build
+[2.462s] creating /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build/lib
+[2.462s] creating /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build/lib/position_Controller
+[2.462s] copying position_Controller/positionController.py -> /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build/lib/position_Controller
+[2.462s] copying position_Controller/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build/lib/position_Controller
+[2.462s] running install
+[2.463s] running install_lib
+[2.464s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/lib/python3.10/site-packages/position_Controller
+[2.464s] copying /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build/lib/position_Controller/positionController.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/lib/python3.10/site-packages/position_Controller
+[2.464s] copying /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build/lib/position_Controller/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/lib/python3.10/site-packages/position_Controller
+[2.465s] byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/lib/python3.10/site-packages/position_Controller/positionController.py to positionController.cpython-310.pyc
+[2.466s] byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/lib/python3.10/site-packages/position_Controller/__init__.py to __init__.cpython-310.pyc
+[2.466s] running install_data
+[2.467s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/share/ament_index
+[2.467s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/share/ament_index/resource_index
+[2.467s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/share/ament_index/resource_index/packages
+[2.468s] error: can't copy 'resource/position_Controller': doesn't exist or not a regular file
+[2.508s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/src/position_Controller' returned '1': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/position_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/position_Controller build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/position_Controller/install.log --single-version-externally-managed

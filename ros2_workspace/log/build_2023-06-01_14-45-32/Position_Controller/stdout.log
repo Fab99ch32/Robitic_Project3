@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/Position_Controller/Position_Controller.egg-info
+writing ../../build/Position_Controller/Position_Controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/Position_Controller/Position_Controller.egg-info/dependency_links.txt
+writing entry points to ../../build/Position_Controller/Position_Controller.egg-info/entry_points.txt
+writing requirements to ../../build/Position_Controller/Position_Controller.egg-info/requires.txt
+writing top-level names to ../../build/Position_Controller/Position_Controller.egg-info/top_level.txt
+writing manifest file '../../build/Position_Controller/Position_Controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/Position_Controller/Position_Controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/Position_Controller/Position_Controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build
+creating /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build/lib
+creating /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build/lib/Position_Controller
+copying Position_Controller/PositionController.py -> /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build/lib/Position_Controller
+copying Position_Controller/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build/lib/Position_Controller
+running install
+running install_lib
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller
+copying /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build/lib/Position_Controller/PositionController.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller
+copying /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build/lib/Position_Controller/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller
+byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller/PositionController.py to PositionController.cpython-310.pyc
+byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/ament_index
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/ament_index/resource_index
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/ament_index/resource_index/packages
+copying resource/Position_Controller -> /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller
+running install_egg_info
+Copying ../../build/Position_Controller/Position_Controller.egg-info to /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/install.log'

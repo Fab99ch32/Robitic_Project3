@@ -1,0 +1,16 @@
+[2.126s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/classification': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/classification/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/classification/build --no-deps install_data
+[2.438s] running develop
+[2.633s] running egg_info
+[2.633s] writing classification.egg-info/PKG-INFO
+[2.633s] writing dependency_links to classification.egg-info/dependency_links.txt
+[2.633s] writing entry points to classification.egg-info/entry_points.txt
+[2.633s] writing requirements to classification.egg-info/requires.txt
+[2.633s] writing top-level names to classification.egg-info/top_level.txt
+[2.636s] reading manifest file 'classification.egg-info/SOURCES.txt'
+[2.636s] writing manifest file 'classification.egg-info/SOURCES.txt'
+[2.638s] running build_ext
+[2.638s] Creating /home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages/classification.egg-link (link to .)
+[2.639s] 
+[2.639s] Installed /home/juntj/Robitic_Project3/ros2_workspace/build/classification
+[2.639s] running install_data
+[2.763s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/classification' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/classification/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/classification/build --no-deps install_data

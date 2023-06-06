@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces/ament_cmake_python/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ro45_portalrobot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ro45_portalrobot_interfaces] Fehler 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ro45_portalrobot_interfaces.dir/all] Fehler 2
+gmake[1]: *** Auf noch nicht beendete Prozesse wird gewartet …
+gmake: *** [Makefile:146: all] Fehler 2

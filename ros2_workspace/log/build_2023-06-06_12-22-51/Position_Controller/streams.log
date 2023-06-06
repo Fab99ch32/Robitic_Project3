@@ -1,0 +1,24 @@
+[1.670s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build
+[2.021s] running develop
+[2.313s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build
+[2.315s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/src/Position_Controller': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Position_Controller build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/install.log --single-version-externally-managed
+[2.607s] running egg_info
+[2.607s] writing ../../build/Position_Controller/Position_Controller.egg-info/PKG-INFO
+[2.608s] writing dependency_links to ../../build/Position_Controller/Position_Controller.egg-info/dependency_links.txt
+[2.608s] writing entry points to ../../build/Position_Controller/Position_Controller.egg-info/entry_points.txt
+[2.608s] writing requirements to ../../build/Position_Controller/Position_Controller.egg-info/requires.txt
+[2.608s] writing top-level names to ../../build/Position_Controller/Position_Controller.egg-info/top_level.txt
+[2.611s] reading manifest file '../../build/Position_Controller/Position_Controller.egg-info/SOURCES.txt'
+[2.612s] writing manifest file '../../build/Position_Controller/Position_Controller.egg-info/SOURCES.txt'
+[2.612s] running build
+[2.612s] running build_py
+[2.612s] running install
+[2.612s] running install_lib
+[2.614s] running install_data
+[2.615s] running install_egg_info
+[2.617s] removing '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.617s] Copying ../../build/Position_Controller/Position_Controller.egg-info to /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller-0.0.0-py3.10.egg-info
+[2.618s] running install_scripts
+[2.643s] Installing pos_Controller script to /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/Position_Controller
+[2.643s] writing list of installed files to '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/install.log'
+[2.700s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/src/Position_Controller' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Position_Controller build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/install.log --single-version-externally-managed

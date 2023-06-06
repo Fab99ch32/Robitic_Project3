@@ -1,0 +1,6 @@
+source;share/Classification/hook/pythonpath.ps1
+source;share/Classification/hook/pythonpath.dsv
+source;share/Classification/hook/pythonpath.sh
+source;share/Classification/hook/ament_prefix_path.ps1
+source;share/Classification/hook/ament_prefix_path.dsv
+source;share/Classification/hook/ament_prefix_path.sh

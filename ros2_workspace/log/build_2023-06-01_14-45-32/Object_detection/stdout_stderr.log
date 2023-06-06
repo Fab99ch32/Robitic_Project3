@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/Object_detection/Object_detection.egg-info
+writing ../../build/Object_detection/Object_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/Object_detection/Object_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/Object_detection/Object_detection.egg-info/entry_points.txt
+writing requirements to ../../build/Object_detection/Object_detection.egg-info/requires.txt
+writing top-level names to ../../build/Object_detection/Object_detection.egg-info/top_level.txt
+writing manifest file '../../build/Object_detection/Object_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/Object_detection/Object_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/Object_detection/Object_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build
+creating /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build/lib
+creating /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build/lib/Object_detection
+copying Object_detection/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build/lib/Object_detection
+copying Object_detection/objectDetection.py -> /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build/lib/Object_detection
+running install
+running install_lib
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages/Object_detection
+copying /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build/lib/Object_detection/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages/Object_detection
+copying /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build/lib/Object_detection/objectDetection.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages/Object_detection
+byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages/Object_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages/Object_detection/objectDetection.py to objectDetection.cpython-310.pyc
+running install_data
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/ament_index
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/ament_index/resource_index
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/ament_index/resource_index/packages
+copying resource/Object_detection -> /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection
+running install_egg_info
+Copying ../../build/Object_detection/Object_detection.egg-info to /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages/Object_detection-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/install.log'

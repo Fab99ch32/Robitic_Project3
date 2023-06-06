@@ -1,0 +1,36 @@
+[2.210s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/src/Tracker': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Tracker build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/install.log --single-version-externally-managed
+[2.491s] running egg_info
+[2.492s] creating ../../build/Tracker/Tracker.egg-info
+[2.492s] writing ../../build/Tracker/Tracker.egg-info/PKG-INFO
+[2.493s] writing dependency_links to ../../build/Tracker/Tracker.egg-info/dependency_links.txt
+[2.493s] writing entry points to ../../build/Tracker/Tracker.egg-info/entry_points.txt
+[2.493s] writing requirements to ../../build/Tracker/Tracker.egg-info/requires.txt
+[2.493s] writing top-level names to ../../build/Tracker/Tracker.egg-info/top_level.txt
+[2.493s] writing manifest file '../../build/Tracker/Tracker.egg-info/SOURCES.txt'
+[2.495s] reading manifest file '../../build/Tracker/Tracker.egg-info/SOURCES.txt'
+[2.495s] writing manifest file '../../build/Tracker/Tracker.egg-info/SOURCES.txt'
+[2.495s] running build
+[2.495s] running build_py
+[2.496s] creating /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build
+[2.497s] creating /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build/lib
+[2.497s] creating /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build/lib/Tracker
+[2.497s] copying Tracker/tracker.py -> /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build/lib/Tracker
+[2.497s] copying Tracker/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build/lib/Tracker
+[2.497s] running install
+[2.498s] running install_lib
+[2.498s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages/Tracker
+[2.498s] copying /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build/lib/Tracker/tracker.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages/Tracker
+[2.498s] copying /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build/lib/Tracker/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages/Tracker
+[2.499s] byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages/Tracker/tracker.py to tracker.cpython-310.pyc
+[2.499s] byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages/Tracker/__init__.py to __init__.cpython-310.pyc
+[2.499s] running install_data
+[2.500s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/ament_index
+[2.500s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/ament_index/resource_index
+[2.500s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/ament_index/resource_index/packages
+[2.500s] copying resource/Tracker -> /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/ament_index/resource_index/packages
+[2.501s] copying package.xml -> /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker
+[2.501s] running install_egg_info
+[2.502s] Copying ../../build/Tracker/Tracker.egg-info to /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages/Tracker-0.0.0-py3.10.egg-info
+[2.502s] running install_scripts
+[2.524s] writing list of installed files to '/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/install.log'
+[2.628s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/src/Tracker' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Tracker build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/install.log --single-version-externally-managed

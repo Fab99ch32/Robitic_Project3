@@ -1,0 +1,26 @@
+[2.046s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build
+[2.440s] running develop
+[2.795s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build
+[2.797s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/src/Scale_detection': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Scale_detection build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/install.log --single-version-externally-managed
+[3.123s] running egg_info
+[3.124s] writing ../../build/Scale_detection/Scale_detection.egg-info/PKG-INFO
+[3.124s] writing dependency_links to ../../build/Scale_detection/Scale_detection.egg-info/dependency_links.txt
+[3.124s] writing entry points to ../../build/Scale_detection/Scale_detection.egg-info/entry_points.txt
+[3.124s] writing requirements to ../../build/Scale_detection/Scale_detection.egg-info/requires.txt
+[3.124s] writing top-level names to ../../build/Scale_detection/Scale_detection.egg-info/top_level.txt
+[3.127s] reading manifest file '../../build/Scale_detection/Scale_detection.egg-info/SOURCES.txt'
+[3.128s] writing manifest file '../../build/Scale_detection/Scale_detection.egg-info/SOURCES.txt'
+[3.128s] running build
+[3.128s] running build_py
+[3.128s] running install
+[3.129s] running install_lib
+[3.130s] creating /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages/Scale_detection
+[3.130s] copying /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build/lib/Scale_detection/scale_detection.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages/Scale_detection
+[3.130s] copying /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build/lib/Scale_detection/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages/Scale_detection
+[3.131s] byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages/Scale_detection/scale_detection.py to scale_detection.cpython-310.pyc
+[3.132s] byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages/Scale_detection/__init__.py to __init__.cpython-310.pyc
+[3.132s] running install_data
+[3.133s] running install_egg_info
+[3.135s] Copying ../../build/Scale_detection/Scale_detection.egg-info to /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages/Scale_detection-0.0.0-py3.10.egg-info
+[3.136s] running install_scripts
+[3.160s] writing list of installed files to '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/install.log'

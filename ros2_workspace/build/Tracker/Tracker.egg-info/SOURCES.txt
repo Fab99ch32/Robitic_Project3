@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Tracker/Tracker.egg-info/PKG-INFO
+../../build/Tracker/Tracker.egg-info/SOURCES.txt
+../../build/Tracker/Tracker.egg-info/dependency_links.txt
+../../build/Tracker/Tracker.egg-info/entry_points.txt
+../../build/Tracker/Tracker.egg-info/requires.txt
+../../build/Tracker/Tracker.egg-info/top_level.txt
+../../build/Tracker/Tracker.egg-info/zip-safe
+Tracker/__init__.py
+Tracker/tracker.py
+resource/Tracker
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

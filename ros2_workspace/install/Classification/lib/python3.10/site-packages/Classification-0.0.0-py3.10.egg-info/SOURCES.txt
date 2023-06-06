@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Classification/Classification.egg-info/PKG-INFO
+../../build/Classification/Classification.egg-info/SOURCES.txt
+../../build/Classification/Classification.egg-info/dependency_links.txt
+../../build/Classification/Classification.egg-info/entry_points.txt
+../../build/Classification/Classification.egg-info/requires.txt
+../../build/Classification/Classification.egg-info/top_level.txt
+../../build/Classification/Classification.egg-info/zip-safe
+Classification/Classification.py
+Classification/__init__.py
+resource/Classification
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

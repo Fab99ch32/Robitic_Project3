@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing ../../build/classification/classification.egg-info/PKG-INFO
+writing dependency_links to ../../build/classification/classification.egg-info/dependency_links.txt
+writing entry points to ../../build/classification/classification.egg-info/entry_points.txt
+writing requirements to ../../build/classification/classification.egg-info/requires.txt
+writing top-level names to ../../build/classification/classification.egg-info/top_level.txt
+reading manifest file '../../build/classification/classification.egg-info/SOURCES.txt'
+writing manifest file '../../build/classification/classification.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages/classification
+copying /home/juntj/Robitic_Project3/ros2_workspace/build/classification/build/lib/classification/__init__.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages/classification
+copying /home/juntj/Robitic_Project3/ros2_workspace/build/classification/build/lib/classification/Progamm.py -> /home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages/classification
+byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages/classification/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages/classification/Progamm.py to Progamm.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/classification/classification.egg-info to /home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages/classification-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/juntj/Robitic_Project3/ros2_workspace/build/classification/install.log'

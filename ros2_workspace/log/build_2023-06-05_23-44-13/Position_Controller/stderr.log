@@ -1,0 +1,5 @@
+  File "/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages/Position_Controller/PositionController.py", line 26
+    self.subscription = self.create_subsciption(, , ,10)
+                                                ^
+SyntaxError: invalid syntax
+

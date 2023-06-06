@@ -1,3 +1,1 @@
-float32 pos_x
-float32 pos_y
-float32 pos_z
+/home/juntj/Robitic_Project3/ros2_workspace/src/ro45_portalrobot_interfaces/msg/RobotPos.msg

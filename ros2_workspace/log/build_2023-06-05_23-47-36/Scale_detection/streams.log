@@ -1,0 +1,16 @@
+[2.138s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build --no-deps install_data
+[2.449s] running develop
+[2.644s] running egg_info
+[2.645s] writing Scale_detection.egg-info/PKG-INFO
+[2.645s] writing dependency_links to Scale_detection.egg-info/dependency_links.txt
+[2.645s] writing entry points to Scale_detection.egg-info/entry_points.txt
+[2.645s] writing requirements to Scale_detection.egg-info/requires.txt
+[2.645s] writing top-level names to Scale_detection.egg-info/top_level.txt
+[2.648s] reading manifest file 'Scale_detection.egg-info/SOURCES.txt'
+[2.649s] writing manifest file 'Scale_detection.egg-info/SOURCES.txt'
+[2.651s] running build_ext
+[2.651s] Creating /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages/Scale-detection.egg-link (link to .)
+[2.652s] 
+[2.652s] Installed /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection
+[2.652s] running install_data
+[2.802s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build --no-deps install_data

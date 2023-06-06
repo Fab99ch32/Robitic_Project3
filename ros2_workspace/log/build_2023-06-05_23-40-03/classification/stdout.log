@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing classification.egg-info/PKG-INFO
+writing dependency_links to classification.egg-info/dependency_links.txt
+writing entry points to classification.egg-info/entry_points.txt
+writing requirements to classification.egg-info/requires.txt
+writing top-level names to classification.egg-info/top_level.txt
+reading manifest file 'classification.egg-info/SOURCES.txt'
+writing manifest file 'classification.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages/classification.egg-link (link to .)
+
+Installed /home/juntj/Robitic_Project3/ros2_workspace/build/classification
+running install_data

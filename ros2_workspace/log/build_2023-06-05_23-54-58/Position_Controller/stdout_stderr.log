@@ -1,0 +1,10 @@
+running develop
+running egg_info
+creating ../../build/Position_Controller/position_Controller.egg-info
+writing ../../build/Position_Controller/position_Controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/Position_Controller/position_Controller.egg-info/dependency_links.txt
+writing entry points to ../../build/Position_Controller/position_Controller.egg-info/entry_points.txt
+writing requirements to ../../build/Position_Controller/position_Controller.egg-info/requires.txt
+writing top-level names to ../../build/Position_Controller/position_Controller.egg-info/top_level.txt
+writing manifest file '../../build/Position_Controller/position_Controller.egg-info/SOURCES.txt'
+error: package directory 'position_Controller' does not exist

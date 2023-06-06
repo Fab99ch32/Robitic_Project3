@@ -1,0 +1,490 @@
+[0.307s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.307s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1a866ee080>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1a866edb10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1a866edb10>>)
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.328s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/juntj/Robitic_Project3/ros2_workspace'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'.': Error(s) in package './package.xml':
+The manifest contains invalid XML:
+no element found: line 2, column 0
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Classification) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Classification' with type 'ros.ament_python' and name 'Classification'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/Object_detection) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Object_detection' with type 'ros.ament_python' and name 'Object_detection'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Position_Controller) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Position_Controller' with type 'ros.ament_python' and name 'Position_Controller'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Scale_detection) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Scale_detection' with type 'ros.ament_python' and name 'Scale_detection'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/Tracker) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Tracker' with type 'ros.ament_python' and name 'Tracker'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/classification) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/classification' with type 'ros.ament_python' and name 'classification'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ro45_portalrobot_interfaces) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ro45_portalrobot_interfaces' with type 'ros.ament_cmake' and name 'ro45_portalrobot_interfaces'
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /home/juntj/ros2_ws/install
+[0.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'Classification' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'Classification' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juntj/Robitic_Project3/ros2_workspace/build/Classification', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification', 'merge_install': False, 'path': '/home/juntj/Robitic_Project3/ros2_workspace/src/Classification', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'Object_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'Object_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection', 'merge_install': False, 'path': '/home/juntj/Robitic_Project3/ros2_workspace/src/Object_detection', 'symlink_install': True, 'test_result_base': None}
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'Position_Controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'Position_Controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller', 'merge_install': False, 'path': '/home/juntj/Robitic_Project3/ros2_workspace/src/Position_Controller', 'symlink_install': True, 'test_result_base': None}
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'cmake_target' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'Scale_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'Scale_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection', 'merge_install': False, 'path': '/home/juntj/Robitic_Project3/ros2_workspace/src/Scale_detection', 'symlink_install': True, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'Tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'Tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker', 'merge_install': False, 'path': '/home/juntj/Robitic_Project3/ros2_workspace/src/Tracker', 'symlink_install': True, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'classification' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'classification' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juntj/Robitic_Project3/ros2_workspace/build/classification', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juntj/Robitic_Project3/ros2_workspace/install/classification', 'merge_install': False, 'path': '/home/juntj/Robitic_Project3/ros2_workspace/src/classification', 'symlink_install': True, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'ro45_portalrobot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'ro45_portalrobot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces', 'merge_install': False, 'path': '/home/juntj/Robitic_Project3/ros2_workspace/src/ro45_portalrobot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.424s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.427s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Classification' with build type 'ament_python'
+[0.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('Classification', 'ament_prefix_path')
+[0.432s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/hook/ament_prefix_path.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/hook/ament_prefix_path.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/hook/ament_prefix_path.sh'
+[0.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Object_detection' with build type 'ament_python'
+[0.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('Object_detection', 'ament_prefix_path')
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/hook/ament_prefix_path.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/hook/ament_prefix_path.dsv'
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/hook/ament_prefix_path.sh'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Position_Controller' with build type 'ament_python'
+[0.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('Position_Controller', 'ament_prefix_path')
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/hook/ament_prefix_path.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/hook/ament_prefix_path.dsv'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/hook/ament_prefix_path.sh'
+[0.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Scale_detection' with build type 'ament_python'
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('Scale_detection', 'ament_prefix_path')
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/hook/ament_prefix_path.ps1'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/hook/ament_prefix_path.dsv'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/hook/ament_prefix_path.sh'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Tracker' with build type 'ament_python'
+[0.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('Tracker', 'ament_prefix_path')
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/hook/ament_prefix_path.ps1'
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/hook/ament_prefix_path.dsv'
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/hook/ament_prefix_path.sh'
+[0.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juntj/Robitic_Project3/ros2_workspace/src/classification' with build type 'ament_python'
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('classification', 'ament_prefix_path')
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/hook/ament_prefix_path.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/hook/ament_prefix_path.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/hook/ament_prefix_path.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juntj/Robitic_Project3/ros2_workspace/src/ro45_portalrobot_interfaces' with build type 'ament_cmake'
+[0.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juntj/Robitic_Project3/ros2_workspace/src/ro45_portalrobot_interfaces'
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.756s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Classification'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.014s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Object_detection'
+[1.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.271s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Position_Controller'
+[1.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.538s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Scale_detection'
+[1.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.804s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juntj/Robitic_Project3/ros2_workspace/src/Tracker'
+[1.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.807s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.072s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juntj/Robitic_Project3/ros2_workspace/src/classification'
+[2.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juntj/ros2_ws/install/launch_testing_examples:/home/juntj/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/juntj/ros2_ws/install/examples_rclpy_minimal_service:/home/juntj/ros2_ws/install/examples_rclpy_minimal_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_client:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_server:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_client:/home/juntj/ros2_ws/install/examples_rclpy_guard_conditions:/home/juntj/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/juntj/Robitic_Project3/ros2_workspace/src/ro45_portalrobot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces
+[2.583s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/ament_index/resource_index/packages/Classification
+[2.583s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/package.xml
+[2.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Classification': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Classification/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Classification/build --no-deps install_data
+[2.588s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/ament_index/resource_index/packages/Position_Controller
+[2.588s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/package.xml
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build --no-deps install_data
+[2.594s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/ament_index/resource_index/packages/Scale_detection
+[2.594s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/package.xml
+[2.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build --no-deps install_data
+[2.598s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/ament_index/resource_index/packages/Tracker
+[2.598s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/package.xml
+[2.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build --no-deps install_data
+[2.601s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/ament_index/resource_index/packages/classification
+[2.601s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/package.xml
+[2.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/classification': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/classification/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/classification/build --no-deps install_data
+[2.606s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/ament_index/resource_index/packages/Object_detection
+[2.606s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/package.xml
+[2.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build --no-deps install_data
+[3.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('Position_Controller', 'pythonpath_develop')
+[3.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/share/Position_Controller/hook/pythonpath_develop.ps1'
+[3.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/build --no-deps install_data
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/share/Position_Controller/hook/pythonpath_develop.dsv'
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Position_Controller/share/Position_Controller/hook/pythonpath_develop.sh'
+[3.198s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller' for CMake module files
+[3.198s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller' for CMake config files
+[3.199s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib'
+[3.199s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/bin'
+[3.199s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/pkgconfig/Position_Controller.pc'
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/lib/python3.10/site-packages'
+[3.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('Position_Controller', 'pythonpath')
+[3.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/hook/pythonpath.ps1'
+[3.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/hook/pythonpath.dsv'
+[3.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/hook/pythonpath.sh'
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/bin'
+[3.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Position_Controller)
+[3.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/package.ps1'
+[3.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/package.dsv'
+[3.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/package.sh'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/package.bash'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/Position_Controller/package.zsh'
+[3.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juntj/Robitic_Project3/ros2_workspace/install/Position_Controller/share/colcon-core/packages/Position_Controller)
+[3.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('Classification', 'pythonpath_develop')
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Classification/share/Classification/hook/pythonpath_develop.ps1'
+[3.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/build/Classification/share/Classification/hook/pythonpath_develop.dsv'
+[3.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Classification' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Classification/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Classification/build --no-deps install_data
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Classification/share/Classification/hook/pythonpath_develop.sh'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification' for CMake module files
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification' for CMake config files
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/lib'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/bin'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/lib/pkgconfig/Classification.pc'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/lib/python3.10/site-packages'
+[3.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('Classification', 'pythonpath')
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/hook/pythonpath.ps1'
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/hook/pythonpath.dsv'
+[3.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/hook/pythonpath.sh'
+[3.219s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/bin'
+[3.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Classification)
+[3.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/package.ps1'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/package.dsv'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/package.sh'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/package.bash'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/Classification/package.zsh'
+[3.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juntj/Robitic_Project3/ros2_workspace/install/Classification/share/colcon-core/packages/Classification)
+[3.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('Tracker', 'pythonpath_develop')
+[3.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/share/Tracker/hook/pythonpath_develop.ps1'
+[3.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/share/Tracker/hook/pythonpath_develop.dsv'
+[3.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/share/Tracker/hook/pythonpath_develop.sh'
+[3.228s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker' for CMake module files
+[3.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Tracker/build --no-deps install_data
+[3.229s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker' for CMake config files
+[3.230s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib'
+[3.230s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/bin'
+[3.230s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/pkgconfig/Tracker.pc'
+[3.230s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/lib/python3.10/site-packages'
+[3.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('Tracker', 'pythonpath')
+[3.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/hook/pythonpath.ps1'
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/hook/pythonpath.dsv'
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/hook/pythonpath.sh'
+[3.232s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/bin'
+[3.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Tracker)
+[3.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/package.ps1'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/package.dsv'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/package.sh'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/package.bash'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/Tracker/package.zsh'
+[3.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juntj/Robitic_Project3/ros2_workspace/install/Tracker/share/colcon-core/packages/Tracker)
+[3.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('classification', 'pythonpath_develop')
+[3.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/classification/share/classification/hook/pythonpath_develop.ps1'
+[3.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/build/classification/share/classification/hook/pythonpath_develop.dsv'
+[3.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/classification/share/classification/hook/pythonpath_develop.sh'
+[3.240s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/classification' for CMake module files
+[3.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/classification' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/classification/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/classification/build --no-deps install_data
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/classification' for CMake config files
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib'
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/bin'
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/pkgconfig/classification.pc'
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/lib/python3.10/site-packages'
+[3.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('classification', 'pythonpath')
+[3.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/hook/pythonpath.ps1'
+[3.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/hook/pythonpath.dsv'
+[3.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/hook/pythonpath.sh'
+[3.243s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/bin'
+[3.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(classification)
+[3.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/package.ps1'
+[3.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/package.dsv'
+[3.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/package.sh'
+[3.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/package.bash'
+[3.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/classification/package.zsh'
+[3.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juntj/Robitic_Project3/ros2_workspace/install/classification/share/colcon-core/packages/classification)
+[3.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('Object_detection', 'pythonpath_develop')
+[3.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/share/Object_detection/hook/pythonpath_develop.ps1'
+[3.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/share/Object_detection/hook/pythonpath_develop.dsv'
+[3.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/share/Object_detection/hook/pythonpath_develop.sh'
+[3.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build --no-deps install_data
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection' for CMake module files
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection' for CMake config files
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib'
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/bin'
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/pkgconfig/Object_detection.pc'
+[3.253s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages'
+[3.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('Object_detection', 'pythonpath')
+[3.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/hook/pythonpath.ps1'
+[3.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/hook/pythonpath.dsv'
+[3.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/hook/pythonpath.sh'
+[3.255s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/bin'
+[3.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Object_detection)
+[3.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/package.ps1'
+[3.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/package.dsv'
+[3.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/package.sh'
+[3.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/package.bash'
+[3.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/Object_detection/package.zsh'
+[3.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/share/colcon-core/packages/Object_detection)
+[3.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('Scale_detection', 'pythonpath_develop')
+[3.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/share/Scale_detection/hook/pythonpath_develop.ps1'
+[3.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/share/Scale_detection/hook/pythonpath_develop.dsv'
+[3.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/share/Scale_detection/hook/pythonpath_develop.sh'
+[3.263s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection' for CMake module files
+[3.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Scale_detection/build --no-deps install_data
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection' for CMake config files
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib'
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/bin'
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/pkgconfig/Scale_detection.pc'
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/lib/python3.10/site-packages'
+[3.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('Scale_detection', 'pythonpath')
+[3.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/hook/pythonpath.ps1'
+[3.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/hook/pythonpath.dsv'
+[3.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/hook/pythonpath.sh'
+[3.266s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/bin'
+[3.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Scale_detection)
+[3.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/package.ps1'
+[3.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/package.dsv'
+[3.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/package.sh'
+[3.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/package.bash'
+[3.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/Scale_detection/package.zsh'
+[3.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juntj/Robitic_Project3/ros2_workspace/install/Scale_detection/share/colcon-core/packages/Scale_detection)
+[3.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juntj/ros2_ws/install/launch_testing_examples:/home/juntj/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/juntj/ros2_ws/install/examples_rclpy_minimal_service:/home/juntj/ros2_ws/install/examples_rclpy_minimal_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_client:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_server:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_client:/home/juntj/ros2_ws/install/examples_rclpy_guard_conditions:/home/juntj/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/juntj/Robitic_Project3/ros2_workspace/src/ro45_portalrobot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces
+[3.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juntj/ros2_ws/install/launch_testing_examples:/home/juntj/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/juntj/ros2_ws/install/examples_rclpy_minimal_service:/home/juntj/ros2_ws/install/examples_rclpy_minimal_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_client:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_server:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_client:/home/juntj/ros2_ws/install/examples_rclpy_guard_conditions:/home/juntj/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces -- -j16 -l16
+[3.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juntj/ros2_ws/install/launch_testing_examples:/home/juntj/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/juntj/ros2_ws/install/examples_rclpy_minimal_service:/home/juntj/ros2_ws/install/examples_rclpy_minimal_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_client:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_server:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_client:/home/juntj/ros2_ws/install/examples_rclpy_guard_conditions:/home/juntj/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces -- -j16 -l16
+[3.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juntj/ros2_ws/install/launch_testing_examples:/home/juntj/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/juntj/ros2_ws/install/examples_rclpy_minimal_service:/home/juntj/ros2_ws/install/examples_rclpy_minimal_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_client:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_server:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_client:/home/juntj/ros2_ws/install/examples_rclpy_guard_conditions:/home/juntj/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces
+[3.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ro45_portalrobot_interfaces)
+[3.713s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces' for CMake module files
+[3.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juntj/ros2_ws/install/launch_testing_examples:/home/juntj/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/juntj/ros2_ws/install/examples_rclpy_minimal_service:/home/juntj/ros2_ws/install/examples_rclpy_minimal_publisher:/home/juntj/ros2_ws/install/examples_rclpy_minimal_client:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_server:/home/juntj/ros2_ws/install/examples_rclpy_minimal_action_client:/home/juntj/ros2_ws/install/examples_rclpy_guard_conditions:/home/juntj/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces
+[3.714s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces' for CMake config files
+[3.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('ro45_portalrobot_interfaces', 'cmake_prefix_path')
+[3.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/cmake_prefix_path.ps1'
+[3.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/cmake_prefix_path.dsv'
+[3.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/cmake_prefix_path.sh'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib'
+[3.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('ro45_portalrobot_interfaces', 'ld_library_path_lib')
+[3.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/ld_library_path_lib.ps1'
+[3.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/ld_library_path_lib.dsv'
+[3.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/ld_library_path_lib.sh'
+[3.718s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/bin'
+[3.718s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/pkgconfig/ro45_portalrobot_interfaces.pc'
+[3.718s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/python3.10/site-packages'
+[3.718s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/bin'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.ps1'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.dsv'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.sh'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.bash'
+[3.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.zsh'
+[3.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/colcon-core/packages/ro45_portalrobot_interfaces)
+[3.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ro45_portalrobot_interfaces)
+[3.773s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces' for CMake module files
+[3.773s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces' for CMake config files
+[3.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('ro45_portalrobot_interfaces', 'cmake_prefix_path')
+[3.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/cmake_prefix_path.ps1'
+[3.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/cmake_prefix_path.dsv'
+[3.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/cmake_prefix_path.sh'
+[3.776s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib'
+[3.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('ro45_portalrobot_interfaces', 'ld_library_path_lib')
+[3.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/ld_library_path_lib.ps1'
+[3.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/ld_library_path_lib.dsv'
+[3.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/hook/ld_library_path_lib.sh'
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/bin'
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/pkgconfig/ro45_portalrobot_interfaces.pc'
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/python3.10/site-packages'
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/bin'
+[3.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.ps1'
+[3.780s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.dsv'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.sh'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.bash'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.zsh'
+[3.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/colcon-core/packages/ro45_portalrobot_interfaces)
+[3.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.782s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.793s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.793s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.804s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juntj/Robitic_Project3/ros2_workspace/install/local_setup.ps1'
+[3.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juntj/Robitic_Project3/ros2_workspace/install/_local_setup_util_ps1.py'
+[3.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juntj/Robitic_Project3/ros2_workspace/install/setup.ps1'
+[3.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juntj/Robitic_Project3/ros2_workspace/install/local_setup.sh'
+[3.811s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juntj/Robitic_Project3/ros2_workspace/install/_local_setup_util_sh.py'
+[3.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juntj/Robitic_Project3/ros2_workspace/install/setup.sh'
+[3.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juntj/Robitic_Project3/ros2_workspace/install/local_setup.bash'
+[3.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juntj/Robitic_Project3/ros2_workspace/install/setup.bash'
+[3.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juntj/Robitic_Project3/ros2_workspace/install/local_setup.zsh'
+[3.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juntj/Robitic_Project3/ros2_workspace/install/setup.zsh'

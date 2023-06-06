@@ -1,0 +1,23 @@
+[2.223s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build
+[2.531s] running develop
+[2.826s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build
+[2.828s] Invoking command in '/home/juntj/Robitic_Project3/ros2_workspace/src/Object_detection': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Object_detection build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/install.log --single-version-externally-managed
+[3.132s] running egg_info
+[3.133s] writing ../../build/Object_detection/Object_detection.egg-info/PKG-INFO
+[3.133s] writing dependency_links to ../../build/Object_detection/Object_detection.egg-info/dependency_links.txt
+[3.133s] writing entry points to ../../build/Object_detection/Object_detection.egg-info/entry_points.txt
+[3.133s] writing requirements to ../../build/Object_detection/Object_detection.egg-info/requires.txt
+[3.133s] writing top-level names to ../../build/Object_detection/Object_detection.egg-info/top_level.txt
+[3.136s] reading manifest file '../../build/Object_detection/Object_detection.egg-info/SOURCES.txt'
+[3.137s] writing manifest file '../../build/Object_detection/Object_detection.egg-info/SOURCES.txt'
+[3.138s] running build
+[3.138s] running build_py
+[3.138s] running install
+[3.138s] running install_lib
+[3.140s] running install_data
+[3.141s] running install_egg_info
+[3.143s] removing '/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages/Object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[3.143s] Copying ../../build/Object_detection/Object_detection.egg-info to /home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages/Object_detection-0.0.0-py3.10.egg-info
+[3.144s] running install_scripts
+[3.169s] writing list of installed files to '/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/install.log'
+[3.268s] Invoked command in '/home/juntj/Robitic_Project3/ros2_workspace/src/Object_detection' returned '0': PYTHONPATH=/home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/prefix_override:/home/juntj/Robitic_Project3/ros2_workspace/install/Object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Object_detection build --build-base /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/build install --record /home/juntj/Robitic_Project3/ros2_workspace/build/Object_detection/install.log --single-version-externally-managed

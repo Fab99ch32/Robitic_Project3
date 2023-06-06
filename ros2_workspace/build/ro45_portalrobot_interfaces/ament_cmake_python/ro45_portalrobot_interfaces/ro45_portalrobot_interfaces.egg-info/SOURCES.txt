@@ -4,3 +4,6 @@ ro45_portalrobot_interfaces.egg-info/PKG-INFO
 ro45_portalrobot_interfaces.egg-info/SOURCES.txt
 ro45_portalrobot_interfaces.egg-info/dependency_links.txt
 ro45_portalrobot_interfaces.egg-info/top_level.txt
+ro45_portalrobot_interfaces/msg/__init__.py
+ro45_portalrobot_interfaces/msg/_robot_cmd.py
+ro45_portalrobot_interfaces/msg/_robot_pos.py

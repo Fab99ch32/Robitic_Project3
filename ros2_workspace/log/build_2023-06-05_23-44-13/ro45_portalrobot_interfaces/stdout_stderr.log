@@ -1,0 +1,163 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/juntj/Robitic_Project3/ros2_workspace/build/ro45_portalrobot_interfaces
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_generator_c[0m
+[ 10%] Built target ro45_portalrobot_interfaces__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_symlink_ro45_portalrobot_interfaces
+[ 12%] Built target ro45_portalrobot_interfaces__cpp
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 41%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c
+[ 41%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c
+[ 43%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_c
+[ 53%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_cpp
+[ 74%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_introspection_cpp
+[ 74%] Built target ro45_portalrobot_interfaces
+[ 76%] Built target ro45_portalrobot_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_generator_py[0m
+[ 84%] Built target ro45_portalrobot_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ro45_portalrobot_interfaces__rosidl_typesupport_c__pyext[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_c__pyext
+[ 97%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target ro45_portalrobot_interfaces__rosidl_typesupport_introspection_c__pyext
+running egg_info
+creating ro45_portalrobot_interfaces.egg-info
+writing ro45_portalrobot_interfaces.egg-info/PKG-INFO
+writing dependency_links to ro45_portalrobot_interfaces.egg-info/dependency_links.txt
+writing top-level names to ro45_portalrobot_interfaces.egg-info/top_level.txt
+writing manifest file 'ro45_portalrobot_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'ro45_portalrobot_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'ro45_portalrobot_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ro45_portalrobot_interfaces_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/ro45_portalrobot_interfaces
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__functions.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__struct.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__type_support.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__functions.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__struct.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__type_support.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/robot_cmd.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/robot_pos.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/environment/library_path.sh
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/environment/library_path.dsv
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__builder.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__struct.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__traits.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__builder.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__struct.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__traits.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/robot_cmd.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/robot_pos.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/include/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces/msg/detail/robot_pos__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/__init__.py
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/_ro45_portalrobot_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/_ro45_portalrobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/_ro45_portalrobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/libro45_portalrobot_interfaces__rosidl_generator_py.so
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/msg/__init__.py
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/msg/_robot_cmd.py
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/msg/_robot_cmd_s.c
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/msg/_robot_pos.py
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/msg/_robot_pos_s.c
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/ro45_portalrobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/msg/RobotCmd.idl
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/msg/RobotPos.idl
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/msg/RobotCmd.msg
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/msg/RobotPos.msg
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ament_index/resource_index/package_run_dependencies/ro45_portalrobot_interfaces
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ament_index/resource_index/parent_prefix_path/ro45_portalrobot_interfaces
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/environment/path.sh
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/environment/path.dsv
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/local_setup.bash
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/local_setup.sh
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/local_setup.zsh
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/local_setup.dsv
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.dsv
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ament_index/resource_index/packages/ro45_portalrobot_interfaces
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfacesConfig.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfacesConfig-version.cmake
+-- Symlinking: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/package.xml
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/libro45_portalrobot_interfaces__rosidl_generator_c.so
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/libro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/libro45_portalrobot_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/libro45_portalrobot_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/libro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/libro45_portalrobot_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/libro45_portalrobot_interfaces__rosidl_typesupport_cpp.so
+Listing '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces'...
+Compiling '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/__init__.py'...
+Listing '/home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/local/lib/python3.10/dist-packages/ro45_portalrobot_interfaces/msg'...
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/lib/libro45_portalrobot_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/ro45_portalrobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/juntj/Robitic_Project3/ros2_workspace/install/ro45_portalrobot_interfaces/share/ro45_portalrobot_interfaces/cmake/export_ro45_portalrobot_interfaces__rosidl_generator_pyExport-noconfig.cmake

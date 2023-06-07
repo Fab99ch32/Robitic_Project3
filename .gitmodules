@@ -4,3 +4,6 @@
 [submodule "ros2_workspace/src/ro45_portalrobot_interfaces"]
 	path = ros2_workspace/src/ro45_portalrobot_interfaces
 	url = https://github.com/matl-hsk/ro45_portalrobot_interfaces.git
+[submodule "ro45_ros2_pickrobot_serial"]
+	path = ro45_ros2_pickrobot_serial
+	url = https://github.com/matl-hsk/ro45_ros2_pickrobot_serial.git

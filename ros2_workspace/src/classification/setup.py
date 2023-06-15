@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'Classification'
+package_name = 'classification'
 
 setup(
     name=package_name,
@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='juntj',
-    maintainer_email='juntjoshua@gmail.com',
+    maintainer='fab',
+    maintainer_email='fabricecheteu332@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'code=classification.Classification:main',
         ],
     },
 )

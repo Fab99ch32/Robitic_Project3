@@ -33,7 +33,7 @@ class ObjectClassification(Node):
         self.publisher = self.create_publisher(IdClassVec, 'IdClassVec', 10)
         self.bridge = CvBridge()
 
-        model_path = 'src/ro45_simple_robot_controller/ro45_simple_robot_controller/svm_model.pkl'
+        model_path = 'src/classification/classification/svm_model.pkl'
         self.svm_model = joblib.load(model_path)
         
 
